@@ -1,0 +1,14 @@
+li {
+  list-style-type: none;
+}
+ul {
+  display: flex;
+}
+.img {
+  height: 25px;
+  margin-right: 1rem;
+  opacity: 0.70;
+}
+.header {
+  margin-top: 2rem;
+}
