@@ -7,7 +7,7 @@ function Header() {
     <>
       <Container className="header">
         <Row>
-          <Col className="p-0" md={2}>
+          <Col className="pl-4" md={2}>
             <h4 style={{ opacity: "0.85", fontWeight: "700" }}>Shriya Gupta</h4>
           </Col>
           <Col md={8}></Col>
