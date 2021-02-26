@@ -6,10 +6,10 @@ function AboutMe() {
   return (
     <>
       <Container className="about-me">
-        <Row className="pb-4">
+        <Row className="mb-5">
           <Col md={6}>
-            <h2 className=" pt-3 pb-3">About Me</h2>
-            <h5 className="bio">
+            <h2 className=" pt-3 mb-0 title" >About Me</h2>
+            <h5 className="bio pt-4">
               Hello! I’m Shriya Gupta. I am passionate about UI/UX design and
               Web Design. I am a Front-end Developer. Lorem ipsum dolor sit amet
               consectetur. Lorem, ipsum dolor. Lorem ipsum dolor sit amet.
@@ -17,7 +17,7 @@ function AboutMe() {
           </Col>
           {/* <Col md={1}></Col> */}
           <Col md={6}>
-            <Row className="pt-5">
+            <Row className="mt-5">
               <Col md={4}>
                 <div className="pt-4">
                   <h5 className="bio">Age </h5>

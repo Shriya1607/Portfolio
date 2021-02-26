@@ -11,9 +11,9 @@ function HeroCard() {
             <Image className="ml-4" src="https://picsum.photos/200" thumbnail />
           </Col>
           <Col md={4}>
-            <div>
-              <h1 className="name">Shriya Gupta</h1>
-              <h4 className="hobby">Web Developer</h4>
+            <div >
+              <h1 className="name title">Shriya Gupta</h1>
+              <h4 className="hobby title">Web Developer</h4>
               <div className="btn-grp">
                 <Button variant="light" className="my-btn1">
                   Download CV

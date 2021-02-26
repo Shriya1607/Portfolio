@@ -1,19 +1,15 @@
 import React from "react";
 import "./Exp-card.css";
 
-function ExpCard() {
+function ExpCard({ id, role, company, date, info }) {
   return (
     <>
       <div className="exp-card">
         <h4>
-          React-Developer <span className="text-muted h5"> at SayItSocial</span>
+          {role} <span className="text-muted h5">{company}</span>
         </h4>
-        <h6 className="date">January 2021 - Present</h6>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto
-          voluptatem vero odit quaerat consectetur animi quam corporis, non quae
-          nostrum quibusdam atque dolore quasi velit fugiat nisi soluta in enim?
-        </p>
+        <h6 className="date">{date}</h6>
+        <p>{info}</p>
       </div>
     </>
   );

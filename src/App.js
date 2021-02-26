@@ -5,13 +5,13 @@ import AboutMe from "./Pages/AboutMe";
 import Skills from "./Pages/Skills";
 import Experience from "./Pages/Experience";
 import Education from "./Pages/Education";
-import Contact from "./Pages/Contact"
-import Bottom from "./Pages/Bottom"
+import Contact from "./Pages/Contact";
+import Bottom from "./Pages/Bottom";
 
 function App() {
   return (
     <>
-      <div className="mb-5">
+      <div className="mb-3">
         <Header />
         <HeroCard />
         <AboutMe />
@@ -19,7 +19,7 @@ function App() {
         <Experience />
         <Education />
         <Contact />
-        <Bottom/>
+        <Bottom />
       </div>
     </>
   );

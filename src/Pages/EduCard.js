@@ -1,22 +1,16 @@
 import React from "react";
-import "./Edu-card.css";
+import "./Exp-card.css";
 
-function EduCard() {
+function EduCard({ id, degree, school, date, info }) {
   return (
     <>
-      <div className="edu-card">
+      <div className="exp-card">
         <h4>
-          BTech <wbr />
-          <span className="text-muted h5">
-            at Symbiosis Institute of Technology
-          </span>
+          {degree} <wbr />
+          <span className="text-muted h5">{school}</span>
         </h4>
-        <h6 className="date">2019-23</h6>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto
-          voluptatem vero odit quaerat consectetur animi quam corporis, non quae
-          nostrum quibusdam atque dolore quasi velit fugiat nisi soluta in enim?
-        </p>
+        <h6 className="date">{date}</h6>
+        <p>{info}</p>
       </div>
     </>
   );

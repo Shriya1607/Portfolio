@@ -9,7 +9,7 @@ function Bottom() {
         <Row>
           <Col>
             <h4
-              style={{ opacity: "0.85", fontWeight: "700", marginLeft: "20px" }}
+              style={{ opacity: "0.85", fontWeight: "700", marginLeft: "20px", marginBottom:"1.2rem" }}
             >
               Shriya Gupta
             </h4>
