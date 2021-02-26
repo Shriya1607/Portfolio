@@ -8,7 +8,7 @@ function AboutMe() {
       <Container className="about-me">
         <Row className="mb-5">
           <Col md={6}>
-            <h2 className=" pt-3 mb-0 title" >About Me</h2>
+            <h2 className=" pt-3 mb-0 title">About Me</h2>
             <h5 className="bio pt-4">
               Hello! I’m Shriya Gupta. I am passionate about UI/UX design and
               Web Design. I am a Front-end Developer. Lorem ipsum dolor sit amet
@@ -29,7 +29,7 @@ function AboutMe() {
               <Col md={8}>
                 <div className="pt-4">
                   <h5 className="bio"> 19</h5>
-                  <h5 className="bio"> guptashriya03@gmail.com</h5>
+                  <h5 className="bio"> abc@gmail.com</h5>
                   <h5 className="bio"> 9599******</h5>
                   <h5 className="bio"> ABC Apartments, Delhi, India </h5>
                 </div>

@@ -71,7 +71,7 @@ function Contact() {
             </h5>
             <h5 style={{ fontStyle: "oblique", fontWeight: "500" }}>Gmail</h5>
             <h5 style={{ fontStyle: "oblique", fontWeight: "500" }}>
-              guptashriya03@gmail.com
+              abc@gmail.com
             </h5>
           </Col>
         </Row>
