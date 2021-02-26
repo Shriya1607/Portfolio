@@ -15,6 +15,7 @@ function Experience() {
             <ExpCard />
           </Col>
         </Row>
+        <hr />
       </Container>
     </>
   );

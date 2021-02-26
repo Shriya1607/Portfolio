@@ -4,6 +4,9 @@ import HeroCard from "./Pages/HeroCard";
 import AboutMe from "./Pages/AboutMe";
 import Skills from "./Pages/Skills";
 import Experience from "./Pages/Experience";
+import Education from "./Pages/Education";
+import Contact from "./Pages/Contact"
+import Bottom from "./Pages/Bottom"
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <AboutMe />
         <Skills />
         <Experience />
+        <Education />
+        <Contact />
+        <Bottom/>
       </div>
     </>
   );
